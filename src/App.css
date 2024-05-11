@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+*{
+    font-family: "Poetsen One", sans-serif;
+    font-style: normal !important;
+}
+
+.add{
+    width: 150px !important;
+    align-items: right !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.boxInput, .card{
+    box-shadow: 1px 5px 15px 3px !important;
+}
+
+.btn-success:hover{
+    color: #198754 !important;
+    background-color: white !important;
+    border: 1px solid #198754 !important;
+}
+
+.btn-primary:hover{
+    color: #0d6efd !important;
+    background-color: white !important;
+    border: 1px solid #0d6efd !important;
+}
+
+.btn-danger:hover{
+    color: #dc3545 !important;
+    background-color: white !important;
+    border: 1px solid #dc3545 !important;
+}
+
+.btns{
+    width: 100px !important;    
+}
