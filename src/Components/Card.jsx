@@ -19,7 +19,7 @@ const Card = ({
       <div className="card-body">
         {/* <h5 className="card-title">{element.id}. My Todo</h5> */}
 
-        {/* Editing Part */}
+        {/* Editing Part */}  
         {editing ? (
           <>
             <input

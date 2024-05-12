@@ -4,8 +4,23 @@ import Input from "./Components/Input";
 import Card from "./Components/Card";
 
 const App = () => {
+  const arrObj = [
+    {
+      title: "Task - 1",
+      description: "This is a description 1",
+    },
+    {
+      title: "Task - 2",
+      description: "This is a description 2",
+    },
+    {
+      title: "Task - 3",
+      description: "This is a description 3",
+    },
+  ];
+
   //Add
-  const [todo, setTodo] = useState([]);
+  const [todo, setTodo] = useState(arrObj);
 
   //Edit
   const [editingId, setEditingId] = useState(null);
